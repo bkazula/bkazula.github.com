@@ -4,7 +4,7 @@
         "end": "2022",
         "company": "AdTonos",
         "position": "Senior Fullstack Developer",
-        "summary": "I was working on a high-workload system that delivers ads to players. It handles more than 600 mln requests daily and all of them are delivered super fast to a player. System is written mostly in Node.js. Unfortunatelly due to unexpected bad company's financial condition we decided to terminate our contract.",
+        "summary": "I was working on a high-workload system that delivers ads to players. It handles more than 600 mln requests daily and all of them are delivered very quickly to a web player. The system is created using Node.js. Unfortunatelly due to an unexpectedly bad company's financial condition, we decided to terminate our contract.",
         "stack": ["JavaScript", "TypeScript", "Angular", "Node.js", "Fastify", "MongoDB", "Ansible", "Linux"]
     },
     {
@@ -12,7 +12,7 @@
         "end": "2022",
         "company": "Commerzbank AG",
         "position": "Senior Fullstack Developer + Cloud Architect",
-        "summary": "My main responsibility was to deliver software for internal bank's stakeholders. Due to company's strategy, one of main points of focus was to switch with software to cloud solutions. I supported company with that movement in projects I worked in and a couple of more that needed support. Responsibilities I took part in consisted of Python development with a frontend written in React and deploying it to Google Cloud Platform using Kubernetes. Second project was a data-heavy search engine to find best matching client based on as few parameters as possible, that were mistake tolerant and were deliver blazingly fast.",
+        "summary": "My primary responsibility was to deliver software for the internal bank's stakeholders. Due to the company's strategy, one of the leading points of focus was to switch from software to cloud solutions. I supported the company with that movement in projects I worked on and a couple more that needed support. Responsibilities I took part in contained Python development with a frontend written in React and deploying it to the Google Cloud Platform using Kubernetes. The second project was a data-heavy search engine that was meant to find the best matching client. It had to find the best match based on as few parameters as possible, that were mistake tolerant and were delivered blazingly fast.",
         "stack": [
             "JavaScript",
             "TypeScript",
@@ -32,7 +32,7 @@
         "end": "2020",
         "company": "NX Labs",
         "position": "Senior Fullstack Developer + DevOps",
-        "summary": "This company is an inside \"software house\", that creates MVP solutions based on businessmen ideas to try them on market. I prepared architectural solutions, created software using multiple technologies - frontend and backend and mobile sides, to finally launch it inside cloud infrastructure that I also prepared",
+        "summary": "This company is an inside \"software house\" that creates MVP solutions based on businessmen's ideas to try them on the market. I prepared architectural solutions and created software using multiple technologies - all of the frontend, backend, and mobile sides - and eventually launch it inside the cloud infrastructure that I also prepared. Projects were different, starting with the Ride-hailing application, parking tickets seller, and other minor websites and applications.",
         "stack": [
             "PHP",
             "Zend Framework",
@@ -55,7 +55,7 @@
         "end": "2018",
         "company": "STX Next",
         "position": "Senior Fullstack Developer",
-        "summary": "I was working in a software house, which delivers many international projects. Some of technologies I worked with: Python 3, AngularJS, React, React Native, GraphQL, relational databases like MySQL and PostgreSQL and AWS platform. I also ran a couple of workshops, both internal and external",
+        "summary": "I was working in a software house, which delivers many international projects. My experience there is starting with e-commerce, through loan apps and job matching application to the insurance company. Some of the technologies I worked with were Python 3, AngularJS, React, React Native, GraphQL, relational databases like MySQL and PostgreSQL, and AWS platform. I also ran a couple of workshops, both internal and external.",
         "stack": [
             "JavaScript",
             "TypeScript",
@@ -79,7 +79,7 @@
         "end": "2016",
         "company": "Gromar Sp. z o. o.",
         "position": "Fullstack Developer",
-        "summary": "I was responsible for developing and maintaining e-learning application LearnWay, on backend side using PHP and PostgreSQL, and on the frontend side using AngularJS and jQuery. Moreover, I was building solutions to contenerize applications using Docker",
+        "summary": "I was responsible for developing and maintaining the e-learning application LearnWay. It supported uploading courses made with a special standard that users could pass. Moreover, it allowed multiple configuration options. I was working on the backend side using PHP and PostgreSQL, and on the frontend side using AngularJS and jQuery. In addition, I was building solutions to containerize applications using Docker.",
         "stack": ["PHP", "Symfony", "JavaScript", "jQuery", "AngularJS", "React", "PostgreSQL", "Linux", "Docker"]
     }
 ]
