@@ -5,7 +5,7 @@ export const Card = ({ children, big = false, className = "" }) => {
         <div
             className={`mb-5 flex flex-col items-center justify-between rounded-md ${
                 big ? "bg-slate-50" : "bg-slate-200"
-            } p-3 drop-shadow-md ${className}`}
+            } p-3 drop-shadow-md print:drop-shadow-none ${className}`}
         >
             {children}
         </div>

@@ -33,6 +33,8 @@ export default function ExperiencePage({ data: { experienceJson: data }, ...rest
     );
 }
 
+export const Head = () => <title>Bartosz Kazuła Homepage</title>;
+
 export const data = graphql`
     query ($id: String!) {
         experienceJson(id: { eq: $id }) {

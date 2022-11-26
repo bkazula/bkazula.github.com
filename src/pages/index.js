@@ -8,21 +8,21 @@ import { SkillsetCard } from "../components/SkillsetCard";
 const IndexPage = ({ data }) => {
     return (
         <>
-            <aside className="basis-4/12 print:mr-2 print:basis-5/12">
-                <AboutCard />
-                <SkillsetCard />
-            </aside>
-            <article className="basis-7/12">
-                <Card big>
-                    <h2 className="text-bold mb-2 text-4xl text-black print:text-3xl">Experience</h2>
-                    <section>
-                        {data.allExperienceJson.edges.map(({ node }) => {
-                            return <ExperienceRow experience={node} />;
-                        })}
-                    </section>
-                </Card>
-            </article>
-        </main>
+            <main className="flex justify-around p-5 print:p-0 xl:container xl:mx-auto">
+                <aside className="basis-4/12 print:basis-5/12">
+                    <AboutCard />
+                    <SkillsetCard />
+                </aside>
+                <article className="basis-7/12 print:grow">
+                    <Card big>
+                        <h2 className="text-bold mb-2 text-4xl text-black print:text-3xl">Experience</h2>
+                        <section>
+                            {data.allExperienceJson.edges.map(({ node }) => {
+                                return <ExperienceRow experience={node} />;
+                            })}
+                        </section>
+                    </Card>
+                </article>
             </main>
             <footer className="clear-both mt-11 hidden print:block">
                 <p className="text-xs">
