@@ -45,5 +45,14 @@ module.exports = {
                 display: "swap",
             },
         },
+        {
+            resolve: "gatsby-source-sanity",
+            options: {
+                projectId: "hdm6kqob",
+                dataset: "production",
+                watchMode: true,
+                overlayDrafts: true,
+            },
+        },
     ],
 };

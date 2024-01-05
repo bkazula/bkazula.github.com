@@ -35,13 +35,15 @@ export const Head = () => <title>Bartosz Kazuła Homepage</title>;
 
 export const data = graphql`
     query ($id: String!) {
-        experienceJson(id: { eq: $id }) {
+        sanityJob(id: { eq: $id }) {
             company
-            start
-            end
+            startDate
+            endDate
             position
-            summary
-            stack
+            description
+            technologies {
+                name
+            }
         }
     }
 `;
