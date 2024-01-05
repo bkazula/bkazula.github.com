@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Tag } from "../../components/Tag";
 
-export default function ExperiencePage({ data: { experienceJson: data }, ...rest }) {
+export default function ExperiencePage({ data: { sanityJob: data }, ...rest }) {
     return (
         <main className="container mx-auto pt-5">
             <Card big>
@@ -17,12 +17,12 @@ export default function ExperiencePage({ data: { experienceJson: data }, ...rest
                         {data.position} @ {data.company}
                     </h1>
                 </div>
-                <p className="mt-5">{data.summary}</p>
+                <p className="mt-5">{data.description}</p>
                 <div className="mt-5 w-full">
                     <h2 className="text-lg font-bold text-black">Used tech stack</h2>
-                    {data.stack.map((technology) => (
-                        <Tag key={technology} big>
-                            {technology}
+                    {data.technologies.map(({ name }) => (
+                        <Tag key={name} big>
+                            {name}
                         </Tag>
                     ))}
                 </div>

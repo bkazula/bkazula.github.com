@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
                         <h2 className="text-bold mb-2 text-4xl text-black print:text-3xl">Experience</h2>
                         <section>
                             {data.allSanityJob.nodes.map((node) => {
-                                return <JobRow job={node} key={node.id} />;
+                                return <JobRow job={node} key={node._id} />;
                             })}
                         </section>
                     </Card>
@@ -47,7 +47,7 @@ export const query = graphql`
         allSanityJob(sort: [{ startDate: DESC }, { endDate: DESC }]) {
             totalCount
             nodes {
-                id
+                _id
                 company
                 description
                 position
