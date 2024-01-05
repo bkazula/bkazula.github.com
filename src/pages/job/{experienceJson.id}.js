@@ -6,8 +6,6 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Tag } from "../../components/Tag";
 
 export default function ExperiencePage({ data: { experienceJson: data }, ...rest }) {
-    console.log(data, rest);
-
     return (
         <main className="container mx-auto pt-5">
             <Card big>

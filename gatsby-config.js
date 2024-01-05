@@ -4,10 +4,13 @@
 module.exports = {
     siteMetadata: {
         title: `Bartosz Kazuła CV`,
-        siteUrl: `https://www.yourdomain.tld`,
+        siteUrl: `https://kazula.eu`,
     },
     plugins: [
         "gatsby-plugin-postcss",
+        "gatsby-plugin-postcss",
+        "gatsby-transformer-json",
+        "gatsby-plugin-image",
         {
             resolve: "gatsby-plugin-google-analytics",
             options: {
@@ -20,7 +23,6 @@ module.exports = {
                 icon: "src/images/icon.png",
             },
         },
-        "gatsby-plugin-postcss",
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -36,7 +38,6 @@ module.exports = {
                 ignore: [`**/\.*`], // ignore files starting with a dot
             },
         },
-        `gatsby-transformer-json`,
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
