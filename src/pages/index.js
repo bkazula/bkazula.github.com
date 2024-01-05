@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Card } from "../components/Card";
 import { graphql } from "gatsby";
-import { ExperienceRow } from "../components/ExperienceRow";
+import { JobRow } from "../components/JobRow";
 import { AboutCard } from "../components/AboutCard";
 import { SkillsetCard } from "../components/SkillsetCard";
 
@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
                         <h2 className="text-bold mb-2 text-4xl text-black print:text-3xl">Experience</h2>
                         <section>
                             {data.allSanityJob.nodes.map((node) => {
-                                return <ExperienceRow experience={node} key={node.id} />;
+                                return <JobRow job={node} key={node.id} />;
                             })}
                         </section>
                     </Card>
